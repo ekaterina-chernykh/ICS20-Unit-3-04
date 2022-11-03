@@ -52,28 +52,21 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <main class="mdl-layout__content">
         <h3>Convert Fahrenheit to Celsius</h3>
-        <h3>XXX</h3>
+        <h6>Formula: (32°F − 32) × 5/9 = 0°C</h6>
         <p></p>
-        <img
-          src="./images/notebook-animation.svg"
-          alt="Computer"
-          width="25%"
-          height="25%"
-        />
         <form action="#">
-          Height:
+          Fahrenheit:
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height"
-              aria-label="height"
+              id="fahrenheit"
+              aria-label="fahrenheit"
             />
-            <label class="mdl-textfield__label" for="length"></label>
+            <label class="mdl-textfield__label" for="fahrenheit"></label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          mm
         </form>
         <p></p>
         <!-- Raised button with ripple -->
@@ -85,7 +78,7 @@
         </button>
         <!-- basic text -->
         <p></p>
-        <div id="hello-world"></div>
+        <div id="celsius"></div>
       </main>
     </div>
   </body>

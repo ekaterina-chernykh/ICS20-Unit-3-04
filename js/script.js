@@ -20,10 +20,10 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   // input
-  const height = parseFloat(document.getElementById("height").value)
+  const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
 
   // process
-  const volume = 2
+  const celsius = 2
   // output
-  document.getElementById("volume").innerHTML = "Volume is: " + volume + "mm³"
+  document.getElementById("celsius").innerHTML = "Celsius = " + celsius + "°C"
 }
