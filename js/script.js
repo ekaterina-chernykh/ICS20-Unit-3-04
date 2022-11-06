@@ -23,7 +23,7 @@ function myButtonClicked() {
   const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
 
   // process
-  let celsius = (fahrenheit - 32) * 5/9;
+  let celsius = ((fahrenheit - 32) * 5) / 9
   // output
   document.getElementById("celsius").innerHTML = "Celsius = " + celsius + "°C"
 }
