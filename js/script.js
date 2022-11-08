@@ -25,5 +25,5 @@ function myButtonClicked() {
   // process
   let celsius = ((fahrenheit - 32) * 5) / 9
   // output
-  document.getElementById("celsius").innerHTML = "Celsius = " + celsius + "°C"
+  document.getElementById("celsius").innerHTML = "Celsius = " + celsius.toFixed(2) + "°C"
 }
